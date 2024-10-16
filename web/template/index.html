@@ -130,7 +130,7 @@
                             td.appendChild(Object.assign(document.createElement('button'), {
                                 name: item.Serial,
                                 onclick: do_unrevoke,
-                                innerHTML: 'подтвердить',
+                                innerHTML: 'Вернуть',
                             }))
                         }
                         tr.setAttribute('class', 'inactive')
@@ -151,7 +151,7 @@
     <div class="top">
         <button id="openbutton">Создать</button>
         <div class="top-right">
-            <label><input type="checkbox" id="display_toggle" />Отображение</label>
+            <label><input type="checkbox" id="display_toggle" />Отозванные</label>
         </div>
     </div>
     <table id="maintable">
